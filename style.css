@@ -1,0 +1,351 @@
+.header{
+    padding: 30px 0;
+    background-color: #f0fff0;
+}
+.nb{
+    width: 20%;
+}
+.navp-0{
+    padding: 0;
+}
+.navimg{
+    width: 150px !important;
+}
+/* .nav-content ul{
+} */
+.nav-content ul li{
+    margin: 0 15px;
+    padding: 5px;
+}
+.nav-content ul li:last-child{
+    margin-right: 0;
+}
+.nav-content ul li a{
+    font-weight: 500;
+    color:black;
+    padding: 0;
+  
+}
+.sign{
+    background-color: #21b573;
+    border-radius: 50px;
+    
+    
+}
+.sign a{
+    color: white !important;
+}
+.sign:hover{
+    transform: scale(1.05);
+}
+
+/* head end */
+.intro{
+    background-color: #f0fff0;
+}
+.lp{
+    color: #f98256 !important;
+}
+.icontent2{
+    padding: 90px 240px 90px 20px;
+}
+.icontent2 h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+    margin-bottom: 30px;
+}
+.icontent2 h1 span{
+    color: #6acf9f;
+}
+.icontent2 p{
+    color:#3E3E3E ;
+}
+.btncustom{
+    margin-top: 10px;
+    width: 170px;
+    background-color: #21b573;
+    color: white;
+    height: 50px;
+    border-radius: 50px;
+}
+.btncustom:hover{
+    transform: scale(1.1);
+}
+/* top banner end */
+
+.cuscards{
+    padding: 40px 0;
+}
+.mycard{
+    width: 23%;
+    background-color: #f8fffb;
+    border: none; 
+    padding: 45px 0;
+}
+.mycard:hover{
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.mycard img{
+    height: 75px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* card end */
+
+.offimg{
+    height: 200px ;
+    width: 200px ;
+}
+.ccanvas{
+    height: 40vh;
+}
+
+/* course start */
+.product{
+    padding-bottom: 100px;
+}
+.producthead{
+    padding: 50px 0;
+}
+.producthead h2{
+    text-align: center;
+    font-size: 36px;
+    color: #363958;
+    font-weight: 700;
+    margin: 0;
+}
+.customcard{
+    display: inline-block !important;
+    margin: 0 5px;
+    width: 30% !important;
+    padding: 20px 20px 0;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+.customcard img{
+    height: 250px;
+    border-radius: 15px;
+}
+.customcard:hover{
+    transform: scale(1.05) !important;
+}
+
+
+
+#cc1{
+    margin-left: 0 !important;
+}
+#cc2{
+    margin-right: 0 !important;
+}
+
+.cardb h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.cardb{
+    padding-left: 0;
+    padding-right: 0;
+}
+.cardb button{
+   margin: 25px 0;
+}
+.cardb button:hover{
+    transform: scale(1.05);
+}
+.card-body img{
+    height: 18px;
+    width: 18px;
+    margin-bottom: 5px;
+
+}
+.ipara{
+    margin-right: 105px;
+}
+.cbtn{
+    display: block;
+    border-radius: 50px;
+    background-color: #21b573;
+    border: none;
+    height: 40px;
+}
+.cbtn a{
+    text-decoration: none;
+    padding: 0 30px;
+    color: white;
+}
+/* course end */
+
+
+/* responsive */
+
+
+
+
+@media (max-width: 767.98px) {  }
+
+
+
+
+
+
+
+
+@media (max-width: 1399.98px) { }
+@media (max-width: 1199.98px) { 
+    .icontent2 h1 {
+        font-size: 35px;
+    }
+    .icontent2 {
+        padding: 20px 100px 35px 20px;
+    }
+ }
+@media (max-width: 991.98px) { 
+    .nav-content ul li {
+        margin: 0;
+    }
+    .sign{
+        background-color: #f0fff0;
+    }
+    .sign a {
+        color: #4ae094 !important;
+    }
+    .btncustom {
+        margin-top: 0;
+        width: 135px;
+        background-color: #21b573;
+        color: white;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .icontent2 h1 {
+        font-size: 30px;
+    }
+    .icontent2 {
+        padding: 10px 30px 25px 20px;
+    }
+    .customcard {
+        padding: 10px 10px 0;
+    }
+    .cbtn a {
+        padding: 0 10px;
+    }
+    .card-img-top{
+        height: 175px !important;
+    }
+    .cardb button {
+        margin: 15px 0;
+    }
+    .ipara {
+        margin-right: 20px;
+    }
+    .cardb h5 {
+        font-size: 19px;
+    }
+    .fp p {
+        text-align: center;
+    }
+    .flist ul li {
+        text-align: center;
+    }
+    .copyp{
+    margin: 30px 0 0;
+    }
+ }
+@media (max-width: 575.98px) {
+    .nt{
+        margin-bottom: 0 !important;
+    }
+    .nav-content ul li {
+        margin: 0;
+    }
+    .sign{
+        background-color: #f0fff0;
+    }
+    .sign a {
+        color: #4ae094 !important;
+    }
+    .icontent2 {
+        padding: 10px 50px 45px 20px;
+    }
+    .icontent2 h1 {
+        font-size: 30px;
+    }
+    .cbd{
+        display: block !important;
+    }
+    .mycard{
+        display: block !important;
+        width: 95% !important;
+        margin: 0 auto 10px;
+    
+    }
+    .cuscards{
+        display: block;
+    }
+    .offimg {
+        height: 120px;
+        width: 120px;
+    }
+    .ccanvas{
+        height: 30vh;
+    }
+
+    /* course*/
+    .product {
+        padding-bottom: 50px;
+    }
+    .producthead{
+        text-align: center;
+    }
+    .cbd{
+        display: block !important;
+    }
+    .customcard{
+        margin: 0 8px 20px !important;
+        display: block !important;
+        width: 95% !important;
+        padding: 15px 15px 0;
+    
+    }
+    .cardb h5{
+        font-size: 24px !important; 
+    }
+    
+    .btncustom{
+        width: 140px;
+        height: 50px;
+    }
+    #cc1{
+        margin-left: 8px !important;
+    }
+    #cc2{
+        margin-right: 8px !important;
+    }
+    
+    /* product */
+    .timg{
+        width: 100% !important;
+    }
+    .testp{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .flist ul {
+        padding: 0;
+        list-style: none;
+    }
+    .copyp{
+        margin: 30px 0 0 !important;
+        }
+    
+  }
